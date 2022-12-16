@@ -1,5 +1,5 @@
 # Go single line comment
-    > Single line comments starts with two forward slashes ( // )
+    Single line comments starts with two forward slashes ( // )
     ```
     package main
     import ("fmt")
@@ -9,7 +9,8 @@
     }
 
 # Go Multi Line comment
-    > Multi line comment starts with ( /* ) and ends with ( */ )
+    Multi line comment starts with ( /* ) and ends with ( */ )
+
     ```
     package main
     import ("fmt")
@@ -20,3 +21,5 @@
         */
         fmt.Println("Hello World!")
     }
+    
+ 
