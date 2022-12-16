@@ -27,3 +27,21 @@
         var number int
         var status bool
     ```
+
+## Declaring multiple variable in single line
+    ```
+        var a, b, c, d int = 1,2,3,4
+        a, b := "Hello", "world"
+    ```
+
+## For constant
+    1. Typed Constant
+        - constant using const keyword followed by constant name and data type
+    ```
+        const name string = "Hello World!"
+    ```
+    2. Untyped Constant
+        - constant using const keywoed followed by constant name
+        ```
+            const name = "Nepal"
+        ```
