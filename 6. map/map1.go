@@ -23,4 +23,6 @@ func main() {
 	for k, v := range a {
 		fmt.Printf("%v------>%v\n", k, v)
 	}
+	c := map[int]int{1: 1, 2: 1, 3: 1}
+	fmt.Println(c)
 }
