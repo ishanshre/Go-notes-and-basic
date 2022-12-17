@@ -25,4 +25,15 @@ func main() {
 		fmt.Println(value)
 	}
 
+	map1 := map[int]string{1: "a", 2: "b", 3: "c"}
+	for key, value := range map1 {
+		fmt.Println(key, value)
+	}
+	for _, value := range map1 {
+		fmt.Println(value)
+	}
+	for key, _ := range map1 {
+		fmt.Println(key)
+	}
+
 }
