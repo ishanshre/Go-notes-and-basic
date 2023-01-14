@@ -1,0 +1,3 @@
+My Name is {{ .Name }}
+*******{{ .Secret }}*******
+Dont tell anyone
